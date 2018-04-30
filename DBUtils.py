@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 
 
 def db_connection():
-    engine = create_engine('mysql+pymysql://root:n2510las@127.0.0.1/shares?charset=utf8mb4')
+    engine = create_engine('mysql+pymysql://root:aaa@127.0.0.1/shares?charset=utf8mb4')
     return engine
 
 
